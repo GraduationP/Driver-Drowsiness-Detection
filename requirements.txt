@@ -1,0 +1,29 @@
+import dlib
+import sys
+import cv2
+import time
+import numpy as np
+from scipy.spatial import distance as dist
+from threading import Thread
+import playsound
+#import Queue as queue
+
+FACE_DOWNSAMPLE_RATIO = 1.5
+RESIZE_HEIGHT = 460
+
+thresh = 0.27
+modelPath = "shape_predictor_68_face_landmarks (1).dat"
+sound_path = "alarm.wav"
+
+detector = dlib.get_frontal_face_detector()
+predictor = dlib.shape_predictor(modelPath)
+
+leftEyeIndex = [36, 37, 38, 39, 40, 41]
+rightEyeIndex = [42, 43, 44, 45, 46, 47]
+
+blinkCount = 0
+drowsy = 0
+state = 0
+blinkTime = 0.1 #100ms
+drowsyTime = 4.5  #4500ms
+ALARM_ON = False
