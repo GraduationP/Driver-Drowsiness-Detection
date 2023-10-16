@@ -1,15 +1,16 @@
 # Driver Drowsiness Detection
 
-Driver Drowsiness Detection is a Python project that utilizes computer vision and machine learning techniques to monitor a driver's eye status and detect drowsiness or blinking. It can be integrated into in-vehicle systems or used as a standalone application to enhance road safety.
+## Overview
+
+Driver Drowsiness Detection is a computer vision project that uses machine learning to detect and count the blinks of a car driver. It also provides warnings if the driver appears to be falling asleep or has fainted while driving. This project aims to enhance road safety by preventing accidents caused by drowsy or inattentive drivers.
 
 ## Features
 
-- Real-time detection of driver blinks and drowsiness.
-- Calculation of the eye aspect ratio for assessing eye openness.
-- Alerts and warnings to prevent potential accidents.
-- Easy integration with existing vehicle systems.
+- Real-time detection of driver blinks using computer vision techniques.
+- Monitoring of the driver's eye movements and alerting if drowsiness is detected.
+- Warning notifications to prevent potential accidents.
 
-## Prerequisites
+## Technologies Used
 
 Before you get started with this project, make sure you have the following prerequisites:
 
