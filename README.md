@@ -11,12 +11,14 @@ Driver Drowsiness Detection is a Python project that utilizes computer vision an
 
 ## Prerequisites
 
-Before you get started, ensure that you have the following prerequisites in place:
+Before you get started with this project, make sure you have the following prerequisites:
 
 - Python 3.x
 - OpenCV
 - dlib
-- Your specific dependencies
+- numpy
+- scipy
+- playsound
 
 ## How It Works
 
