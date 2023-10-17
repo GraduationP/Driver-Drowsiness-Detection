@@ -65,6 +65,6 @@ The main logic runs in a loop continuously capturing, processing, and displaying
 
 
 ## Team Members
-Mohamed Ahmed Wahdan
-Omnia Fathy
-Eman Abdelrahman
+##### [Mohamed Ahmed Wahdan]([Mohamed1303507](https://github.com/Mohamed1303507))
+##### [Omnia Fathy](https://github.com/omnia211)
+##### [Eman Abdelrahman](https://github.com/emanabdelrhman6272)
